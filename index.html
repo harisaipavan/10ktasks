@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #home{
+            text-decoration: none;
+            color:whitesmoke;
+            margin: 25px;
+        }
+        #searchicon{
+            position: absolute;
+            left: 400px;
+            padding: 12px;
+        }
+        input::placeholder{
+            padding-left:40px;
+        }
+        
+        .backcolor{
+            background-color: rgb(24, 179, 179);
+            height: 350px;
+            position: relative;
+        }
+     #pg1{
+            border: 0px;
+            outline: 0px;
+            color:whitesmoke;
+            background-color: rgb(24, 179, 179);
+        }
+        .search{
+            position: relative;
+        }
+        .anothercolor{
+            border-top-left-radius:0;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+        }
+
+        .icons{
+            color:whitesmoke;
+            margin-top:60px ;
+        }
+        #icon{
+            background-color: rgb(4, 45, 61);
+            padding: 6px;
+            margin: 5px;
+            border-radius: 60px;
+        }
+        .boxone{
+            width: 250px;
+            height: 250px;
+            border-radius: 5px;
+            top: -50px;
+            position: relative;
+            background-color: whitesmoke;
+            
+        }
+
+        .boxtwo{
+            width: 500px;
+            height: 250px;
+            border-radius: 5px;
+            position: relative;
+            margin-left: 20px;
+            top:-50px;
+            background-image:
+    linear-gradient(to top, rgba(7, 112, 106, 0.696), rgba(19, 171, 171, 0.862)),
+    url('businesswoman-using-tablet-analysis.jpg');
+         background-size: cover;   
+        }
+        .twoboxs{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+        #s2{
+            color: rgb(141, 138, 138);
+            margin: 30px;
+            text-decoration: none;
+            
+        }
+        .threeboxes{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+        }
+        .box1{
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
+            background-color: aliceblue;
+            position: relative;
+        }
+        .box2{
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
+            background-color: aliceblue;
+            position: relative;
+        }
+        .box3{
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
+            background-color: aliceblue;
+            position: relative;
+        }
+        .slide3{
+            height: 800px;
+            background-image:
+    linear-gradient(to top, rgba(7, 112, 106, 0.696), rgba(19, 171, 171, 0.862)),
+    url('colleagues-working-cozy-office-medium-shot.jpg');
+    background-repeat: no-repeat;
+            background-size: 100% 100%;
+            color: whitesmoke;
+        }
+        .a1{
+            
+            text-align: justify;
+             margin: 60px 0;
+             
+             
+        }
+        .b{
+         margin: 0 300px;
+        }
+        #s3{
+            margin: 10px;
+        }
+        #ins{
+            background-color: aquamarine;
+            width: 30px;
+            padding: 15px;
+            border-radius: 100px;
+        }
+        #youtube{
+            color: aquamarine;
+            border-radius: 15px;
+            padding: 8px;
+            background-color: rgba(85, 172, 172, 0.597);
+        }
+        #pg4{
+            border-radius: 15px;
+            padding: 10px;
+            background-color:rgb(179, 176, 176);
+            width: 600px;
+        }
+        .slide5{
+            background-color: lightgray;
+            height: 400px;
+        }
+        .slide5arng{
+            
+            display: flex;
+            justify-content: space-around;
+            justify-items: center;
+        }
+        #foot{
+            text-decoration: none;
+            color:lightseagreen;
+            
+        }
+        .last{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="backcolor">
+        <h1><i class="bi bi-subtract"></i>&nbsp;Topic</h1>
+        <center>
+        <nav>
+            <a id="home" href="#">Home</a>
+            <a id="home" href="#browse">Browse Topics</a>
+            <a id="home" href="#howitworks">How It Works</a>
+            <a id="home" href="#faq">FAQS</a>
+            <a id="home" href="#getintouch">Contact</a>
+           <select id="pg1">
+            <option>Pages</option>
+           </select>
+        </nav><br><br><br>
+        <h1 align="center" id="home" style="color: antiquewhite;">DISCOVER.LEARN.ENJOY</h1>
+        <p align="center" style="color: rgb(9, 83, 58);">Platform for creatives around the world</p><br>
+        <div class="search">
+        <input type="text" placeholder="Design,Code,Marketing,Finance..." style="width: 500px;border-radius: 20px;height: 40px;outline: 0;border: 0;position: relative;">
+        <i class="bi bi-search" id="searchicon"></i>
+        <button style="border-radius: 20px;padding: 8px;background-color: aquamarine;outline: 0;border:0;position: relative;right: 80px;">search</button>
+        
+        </div>
+            </center>
+    </div>
+        
+    <div class="anothercolor" style="background-color: aquamarine;height: 300px;">
+
+        <div class="twoboxs">
+            <div class="boxone">
+                <h3>Web Design</h3>
+                <button style="background-color: blue;color: bisque;position: absolute;top: 10px;right:20px; border-radius: 4px;padding: 4px;outline:0;border: 0;">14</button>
+                <p>when you search for free css templates,you will notice that TemplateMo is one of the best websites.</p><br><br>
+                <center><img src="undraw_Remote_design_team_re_urdx.png" width="150px"></center>
+            </div>
+    
+            <div class="boxtwo">
+                <h3 style="color:white">Finance</h3>
+                <button style="background-color: blue;color: bisque;position: absolute;top: 10px;right:20px; border-radius: 4px;padding: 4px;outline:0;border: 0;">25</button>
+                <p style="color:white;">Topic Listing Template includes homepage,listing page,detail page,<br>and contact page,and contact page.You can feel free to edit<br> and adapt for your CMS requirements.</p><br><br>
+                <button style="border-radius: 15px;padding: 8px;background-color: rgb(49, 174, 174); color: rgb(242, 245, 245);">Learn More</button>
+                <div class="icons">
+                    <b>Share:</b>
+                    <a id="icon"><i class="bi bi-twitter"></i></a>
+                    <a id="icon"><i class="bi bi-facebook"></i></a>
+                    <a id="icon"><i class="bi bi-pinterest"></i></a>
+                    <a id="iconb" style="float: right;margin-right: 20px;"><i class="bi bi-bookmark"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <h1 align="center" id="browse">Browse Topics</h1>
+    <br>
+    <nav>
+        <center>
+        <a id="s2" href="#">Design</a>
+        <a id="s2" href="#">Marketing</a>
+        <a id="s2" href="#">Finance</a>
+        <a id="s2" href="#">Music</a>
+        <a id="s2" href="#">Education</a>
+        <hr>
+        </center>
+    </nav><br>
+    <div class="threeboxes">
+        <div class="box1">
+            <h3>Web Design</h3>
+                <button style="background-color: blue;color: bisque;position: absolute;top: 10px;right:20px; border-radius: 4px;padding: 4px;outline:0;border: 0;">14</button>
+                <p>when you search for free css templates,you will notice that TemplateMo is one of the best websites.</p><br><br>
+                <center><img src="undraw_Remote_design_team_re_urdx.png" width="150px"></center>
+        </div>
+        <div class="box2">
+            <h3>Graphic</h3>
+                <button style="background-color: blue;color: bisque;position: absolute;top: 10px;right:20px; border-radius: 4px;padding: 4px;outline:0;border: 0;">75</button>
+                <p>Lorem Ipsum dolor sit amet consectetur</p><br><br>
+                <center><img src="undraw_Redesign_feedback_re_jvm0.png" width="150px"></center>
+        </div>
+        <div class="box3">
+            <h3>Logo Design</h3>
+                <button style="background-color: blue;color: bisque;position: absolute;top: 10px;right:20px; border-radius: 4px;padding: 4px;outline:0;border: 0;">100</button>
+                <p>Lorem Ipsum dolor sit amet consectetur</p><br><br>
+                <center><img src="colleagues-working-cozy-office-medium-shot.png" width="150px"></center>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="slide3">
+        <h1 align="center" id="howitworks">How does it work?</h1>
+        <div class="b">
+        <div class="a1">
+            <h1 id="ins"><i class="bi bi-search"></i></h1>
+            <h3 id="s3">Search your favourite topic</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicng elit Reiciendis,cumque magnam?sequi,
+                cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt,quisqunam numquam
+                aliquam? Voluptas,accusamus omnis?
+            </p>
+        </div>
+        <div class="a1">
+            <h1 id="ins"><i class="bi bi-bookmark"></i></h1>
+            <h3 id="s3">Bookmark & Keep it for yourself</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicng elit.Sint animi necessitatibus aperiam
+                repudiandae nam omnis est vel quo, nihil repellat quia velit error modi earum simillique odit labore.
+                Doloremque,repudiandae?
+            </p>
+        </div>
+        <div class="a1">
+            <h1 id="ins"><i class="bi bi-book"></i></h1>
+            <h3 id="s3">Read & Enjoy </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicng elit. Animi vero quisquam,rem assumenda
+                similique voluptas distinctio,iste est eveniet debits ut ducimus beatae id? Quam culpa deleniti 
+                officiis autem?
+            </p>
+        </div>
+    </div>
+        <center>
+            <span>Want to learn more?</span> &nbsp;&nbsp;&nbsp;<a href="www.youtube.com"><button id="youtube">Check out youtube</button></a>
+        </center>
+    </div>
+<br><br><br>
+
+    <h1 id="faq">Frequently Asked</h1>
+    <h1>Questions</h1>
+    <div  class="page4" style="position: relative;"><img src="faq_graphic.jpg" width="350px" height="300px"></div>
+    <div class="page4" style="position: absolute; right: 20px;top: 2100px;">
+        <select id="pg4">
+            <option>What is Topic Listing ?</option>
+            <option>Topic Listing is free Bootstrap 5 CSS template.you are not allowed to 
+                redistribute this template on any other template collection website
+                without our permission.please contact TemplateMo for more detail.
+                Thank you.
+            </option>
+        </select><br>
+        <select id="pg4">
+            <option>How to find a Topic ?</option>
+            <option>Topic Listing is free Bootstrap 5 CSS template.you are not allowed to 
+                redistribute this template on any other template collection website
+                without our permission.please contact TemplateMo for more detail.
+                Thank you.
+            </option>
+        </select><br>
+        <select id="pg4">
+            <option>Does it need to paid ?</option>
+            <option>Topic Listing is free Bootstrap 5 CSS template.you are not allowed to 
+                redistribute this template on any other template collection website
+                without our permission.please contact TemplateMo for more detail.
+                Thank you.
+            </option>
+        </select>
+    </div>
+    <br><br><br>
+    
+    <div class="slide5">
+        <h1 align="center" id="getintouch">Get in touch</h1><br><br><br>
+        <div class="slide5arng">
+        <div class="map">       
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.301802724675!2d78.39954787390856!3d17.493100799753638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91625d9cd1ad%3A0x4455387ad24a675d!2s10000coders!5e0!3m2!1sen!2sin!4v1714249835864!5m2!1sen!2sin" width="500px" height="200px" style="border-radius: 20px;"></iframe>  
+       </div>
+    
+        <div class="headoffice">
+            <h2>Head office</h2><br>
+            <span>Bay St &,Larkin St,San<br> Francisco,
+                CA 94109,United <br>States
+            </span>
+            <br><br><hr width="200px"><br>
+            <span>Phone<a id="foot" href="tel:+91 9573646723">305-240-9671</a></span><br>
+            <span>Email <a id="foot" href="mailto:info@company.com">info@company.com</a></span>
+        </div>
+        <div class="dubaioffice">
+            <h2>Dubai office</h2><br>
+            <span>Burj park,Downtown Dubai<br>
+                United Arab Emirates
+            </span>
+            <br><br><hr width="200px"><br>
+            <span>Phone<a id="foot" href="tel:+91 9573646723">110-220-3400</a></span><br>
+            <span>Email <a id="foot" href="mailto:info@company.com">info@company.com</a></span>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br><br>
+    <footer>
+        <div class="last">
+            
+            <span><h1> <i class="bi bi-subtract"></i>&nbsp;Topic</h1></span>
+            <span><h3>Resources</h3>
+                <a  id="foot" href="#">Home</a><br>
+                <a id="foot" href="#">How it works</a><br>
+                <a  id="foot" href="#">FAQS</a><br>
+                <a  id="foot" href="#">Contact</a><br>
+            </span>
+            <span>
+                <h3>Information</h3>
+            <a id="foot" href="tel:+91 9573646723">305-240-9671</a><br>
+            <a id="foot" href="mailto:info@company.com">info@company.com</a>
+            </span>
+            <div>
+                <select style="background-color: rgb(49, 135, 135);color:rgb(246, 244, 244); padding: 10px; border-radius: 5px;">
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>Arabic</option>
+                </select><br><br><br>
+                <span>Copyright &copy; 2048 Topic Listing Center.<br>
+                All rights reserved.<br><br>
+            Design:TemplateMo</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
